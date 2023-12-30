@@ -331,3 +331,56 @@ nav ul li:hover{
 .carousel-indicators .active {
     background-color: #C3A13B !important;
 }
+
+/*Áreas atuação----------------------------------------*/
+.areas-atuacao{
+    position: relative;
+    background-color: #f2f3f4;
+    border-top-left-radius: 120px;
+}
+
+.areas-atuacao img{
+    position: absolute;
+    width: 300px;
+    margin-left: -150px;
+    z-index: 1;
+    bottom: 20px;
+}
+
+.areas-atuacao .titulo div{
+    height: 1px;
+    width: calc(100% - var(--h4-width4) - 21px);
+    background-color: #C3A13B;
+    margin-left: 20px;
+}
+
+.card-area-atuacao{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.15);
+}
+
+.linha-verde{
+    background-color: #50897D;
+    height: 8px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-area-atuacao h4{
+    color: #50897D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card-area-atuacao p{
+    color: #929292;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-area-atuacao h6{
+    color: #C3A13B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
