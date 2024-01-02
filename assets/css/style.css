@@ -226,7 +226,7 @@ nav ul li:hover{
 
 .sobre-mim .titulo div{
     height: 1px;
-    width: calc(100% - var(--h4-width) - 22px);
+    width: calc(100% - var(--h4-width) - 23px);
     background-color: #C3A13B;
     margin-left: 20px;
 }
@@ -300,6 +300,12 @@ nav ul li:hover{
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .especialidades{
+        border-top-right-radius: 60px;
+    }
 }
 
 /*Cuidados paliativos---------------------------------*/
@@ -383,4 +389,298 @@ nav ul li:hover{
     color: #C3A13B;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+}
+
+.card-area-atuacao h6:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.areas-atuacao .card-area-atuacao{
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 576px){
+    .areas-atuacao{
+        border-top-left-radius: 60px;
+    }
+}
+
+/*Recomendações------------------------------*/
+
+.recomendacoes .titulo div{
+    height: 1px;
+    width: calc(100% - var(--h4-width5) - 21px);
+    background-color: #C3A13B;
+    margin-left: 20px;
+}
+
+.circle-dica{
+    background-color: #50897D;
+    padding: 4%; 
+    border-radius: 50%;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: -30px;
+}
+
+.textos-circle-dica h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textos-circle-dica p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 575px){
+    .circle-dica{
+        padding: 5%;
+    }
+}
+
+/*Modalidades de atendimento------------------------*/
+.atendimento .titulo div{
+    height: 1px;
+    width: calc(100% - var(--h4-width6) - 21px);
+    background-color: #C3A13B;
+    margin-left: 20px;
+}
+
+.atendimento{
+    position: relative;
+    background-color: #f2f3f4;
+    border-bottom-right-radius: 120px;
+}
+
+.logo-fundo-branca img{
+    position: absolute;
+    width: 300px;
+    margin-left: -150px;
+    z-index: 1;
+    bottom: 20px;
+}
+
+.img-modalidade-atendimento-1 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.img-modalidade-atendimento-2 img{
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.textos-modalidade-atendimento h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #50897D;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+
+.textos-modalidade-atendimento p{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-pills .nav-link{
+    color: #50897D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-pills .nav-link.active {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #50897D
+}
+
+.areas-atuacao .card-area-atuacao{
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 576px){
+    .atendimento{
+        border-bottom-right-radius: 60px;
+    }
+}
+
+@media (max-width: 992px){
+    .img-modalidade-atendimento-1 img{
+        width: 70%;
+    }
+
+    .img-modalidade-atendimento-2 img{
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px){
+    .img-modalidade-atendimento-2 img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px){
+    .img-modalidade-atendimento-1 img{
+        width: 80%;
+    }
+}
+
+/*Contato-----------------------------------*/
+.contato .titulo div{
+    height: 1px;
+    width: calc(100% - var(--h4-width7) - 21px);
+    background-color: #C3A13B;
+    margin-left: 20px;
+}
+
+.contato iframe{
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.circle-rede-social{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #50897D;
+}
+
+.textos-rede-social h6{
+    color: #50897D;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textos-rede-social a{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contato video{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.video-contato h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #50897D;
+    font-weight: 500;
+
+}
+
+.botao-agenda-consulta-final{
+    margin-top: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 7px 10px;
+    transition: 0.4s;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background-color: #C3A13B;
+    width: 204px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.botao-agenda-consulta-final:hover{
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.botao-agenda-consulta-final p{
+    margin-bottom: 0px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+/*Rodapé-----------------------------------------------*/
+.parte-cinza-rodape{
+    height: 50px;
+    width: 100%;
+    background-color: #f2f3f4;
+    border-top-right-radius: 350px;
+    margin-left: -150px;
+}
+
+.rodape-oficial{
+    background-image: url('../img/bg-inicio-ok.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 200px;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.logo-rodape a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.linha-rodape{
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.rodape h5{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 1300px){
+    .rodape-oficial{
+        border-top-right-radius: 120px;
+    }
+    .parte-cinza-rodape{
+        margin-left: -100px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .rodape-oficial{
+        border-top-right-radius: 100px;
+    }
+    .parte-cinza-rodape{
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 576px){
+    .parte-cinza-rodape{
+        margin-left: -50px;
+        height: 30px;
+    }
+    .rodape-oficial{
+        border-top-right-radius: 60px;
+    }
+}
+
+/*Scrollbar*/
+
+body::-webkit-scrollbar {
+    width: 10px
+} 
+  
+body::-webkit-scrollbar-thumb {   
+    background-color: #C3A13B;
+    border-radius: 5px;   
 }
